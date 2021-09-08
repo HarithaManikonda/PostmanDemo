@@ -54,10 +54,11 @@ Now use this variable as {{token}}  in Request #2
 1. Newman is a command-line Collection Runner for Postman. It enables you to run and test a Postman Collection directly from the command line.
 2. It is also used to run postman collection in jenkins
 3. Newman is built on Node.js
-4. ```
+ ```
 $ npm install -g newman
 ```
- # runs the collection 10 times with provided data file
+## runs the collection 10 times with provided data file
+ 
 ```
 $ newman run mycollection.json -n 10  -d data.json
 ```
