@@ -62,3 +62,5 @@ $ npm install -g newman
 ```
 $ newman run mycollection.json -n 10  -d data.json
 ```
+## What will run first in collection run 
+Pre-request scripts at the Collection level are executed first in a Collection run.
