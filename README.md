@@ -57,7 +57,7 @@ Now use this variable as {{token}}  in Request #2
  ```
 $ npm install -g newman
 ```
-## runs the collection 10 times with provided data file
+## Run the collection 10 times with provided data file
  
 ```
 $ newman run mycollection.json -n 10  -d data.json
